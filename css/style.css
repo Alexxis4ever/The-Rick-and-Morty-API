@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos el cuerpo de mi página */
+body {
+    background-color: #202329;
+    color: white;
+}
+
+/* Estilos para el encabezado de la página */
+header {
+    display: flex;
+    width: 100% auto;
+    position: relative;
+    background-color: #ffffff;
+    backdrop-filter: blur(5px);
+    color: #202329;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 11.2rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+
+/* Estilos para el contenido donde estan las cartas */
+.main-content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5rem;
+    padding-top: 8rem;
+}
+
+
+
+/* Estilos de la carta */
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 28.2rem;
+    width: 20rem;
+    margin: 1.2rem;
+    margin-bottom: 6rem;
+    background-color: #3c3e44;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform .2s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Estilos para el nombre de la carta */
+.name-card {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 22px;
+}
+
+.name-card:hover {
+    color: orange;
+}
+
+
+/* Estilos para la imagen de la carta */
+.img-card {
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 17rem;
+}
+
+
+/* Estilos para la linea que divide el nombre de la especie y el genero en la carta */
+.line-image {
+    border: 1px solid rgb(133, 131, 131);
+}
+
+
+/* Estilos para la especie del personaje en la carta*/
+.species-card {
+    margin-top: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.species-card:hover {
+    color: orange;
+}
+
+
+/* Estilos para el genero del personaje en la carta*/
+.gender-card {
+    margin-top: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gender-card:hover {
+    color: orange;
+}
+
+
+/* Estilos el contenedor donde se encuentra el buscador */
+.contain_input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+/* Estilos para la indo en la parte superior de el buscador */
+.text-info {
+    margin-bottom: 2rem;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilos de mi buscador */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 4rem;
+    border-radius: 35px;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    font-size: 25px;
+    transition: transform .2s;
+    border: none;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.search:hover {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.02);
+}
